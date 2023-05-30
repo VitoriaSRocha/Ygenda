@@ -1,0 +1,170 @@
+.popup-box {
+  position: fixed;
+  background-color: (0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.box {
+  position: relative;
+  width: 50%;
+  min-height: 300px;
+  background-color: rgb(253, 251, 251);
+  border: 1px solid #999;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  overflow: auto;
+
+
+}
+
+.fre-box {
+  position: fixed;
+  background-color: (0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.btn-pop {
+  background-color: blueviolet;
+  color: rgb(255, 255, 255);
+  background: rgb(197, 209, 228);
+}
+
+.box1 {
+  position: relative;
+  width: 90px;
+  min-height: 10px;
+  background-color: rgb(222, 225, 231);
+  border: 1px solid #999;
+  border-radius: 4px;
+  margin-left: 900px;
+  margin-top: 397px;
+  padding: 20px;
+  overflow: auto;
+
+
+}
+
+
+.btn-close2 {
+  cursor: pointer;
+  border: 1px solid #999;
+  border-radius: 50%;
+  position: fixed;
+  right: calc(35% - 30px);
+  top: 45px;
+  margin-top: 350px;
+
+  background: #afaaaa;
+
+
+}
+
+.select {
+  width: 100px;
+
+
+}
+
+.blocoP {
+
+
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  display: flex;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: rgb(223, 74, 64);
+}
+
+.blocoP2 {
+
+
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  display: flex;
+  position: absolute;
+  margin-top: -89px;
+  margin-left: 130px;
+  background-color: rgb(211, 104, 55);
+}
+
+.blocoP3 {
+
+
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  display: flex;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 270px;
+  background-color: rgb(139, 219, 92);
+}
+
+.checkboxPop {
+
+
+  margin-top: 8px;
+  margin-left: 80px;
+
+
+}
+
+.letraPop {
+  margin-left: 120px;
+  margin-top: -10px;
+}
+
+.letraPop2 {
+  margin-left: 260px;
+  margin-top: -13px;
+}
+
+.move {
+  margin-top: -200px;
+  margin-left: 550px;
+}
+
+.move2 {
+  margin-top: -130px;
+  margin-left: 400px;
+}
+
+
+.checkboxPop2 {
+  margin-top: -70px;
+  margin-left: 180px;
+}
+
+.checkboxPop3 {
+
+
+  margin-top: -60px;
+  margin-left: 320px;
+
+
+}
+
+.btn-close {
+  cursor: pointer;
+  border: 1px solid #999;
+  border-radius: 50%;
+  position: fixed;
+  right: calc(25% - 30px);
+  top: 15px;
+  background: #afaaaa;
+
+
+}

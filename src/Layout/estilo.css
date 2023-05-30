@@ -1,0 +1,2648 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.ligthmode{
+   background: wheat;
+   color: black; 
+}
+
+.colorin{
+  
+    background-color: #e6e4e4;
+}
+#Colores3{
+    color: antiquewhite;
+  
+  }
+
+.btnc{
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    
+
+}
+
+.mostrar_senha{
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+
+.letralado {
+    margin-top: -30px;
+    margin-left: 100px;
+    color: #535858;
+    font-family: 'Lucida Grande',  Verdana, sans-serif;
+
+}
+
+
+.colorwhite{
+    color: wheat;
+}
+
+.engrenagem{
+    margin-left: 200px;
+
+}
+
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+
+.sidenav a,
+.dropdown-btn{
+    padding: 6px 8px 6px -76px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover,
+.dropdown-btn:hover {
+    color: #ffffff;
+}
+
+.active {
+    background-color: rgb(45, 28, 73);
+    color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: #56435e;
+    padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+
+}
+
+
+body {
+    background: linear-gradient(90deg, #222239, #181829, #343456);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section#escolhasQuest {
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    float: left;
+    display: block padding 20px 30px;
+}
+
+/*botões*/
+
+button#Escolha1 {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f1e8ff;
+    font-size: 25px;
+}
+
+button#Escolha2 {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f1e8ff;
+    font-size: 25px;
+}
+
+/*BLOCOS DE QUESTIONÁRIO*/
+
+.BlocoQuest {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.BlocoQuest#bloco1 {
+    top: 50%;
+    left: 30%;
+}
+
+.BlocoQuest#bloco2 {
+    top: 50%;
+    left: 60%;
+}
+
+.BlocoQuest#bloco3 {
+    top: 70%;
+    left: 40%;
+}
+
+.BlocoQuest#bloco4 {
+    top: 70%;
+    left: 57%;
+}
+
+
+
+.externoBlocoQuest {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(90deg, #222239, #181829, #343456);
+}
+
+
+.externoBlocoQuest h1 {
+    margin-top: 100px;
+    text-align: center;
+    color: #f1e8ff;
+    text-transform: uppercase;
+}
+
+
+section#questAdulto {
+    width: 400px;
+    background-color: #f1e8ff;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px 30px;
+
+}
+
+section#questCrianca {
+    width: 600px;
+    height: 600px;
+    background-color: rgb(192, 236, 229);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 20px 30px;
+
+}
+
+main label input {
+
+    background: #ccd3d3;
+
+    color: azure;
+
+
+
+
+}
+
+section#cadastro {
+    width: 400px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px 30px;
+}
+
+section#cadastro h1 {
+    color: #f1e8ff;
+}
+
+input#Colores {
+    color: black;
+    background-color: rgb(241, 238, 238);
+}
+
+section#cadastro input{
+    color: rgb(44, 40, 40);
+    
+}
+
+
+section#login h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+
+}
+
+section#cadastro h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+
+section#logo {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section#logo h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #f1e8ff;
+}
+
+section#logo img {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    clear: both;
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to right, #00008B, #6A5ACD, #6495ED);
+    text-transform: uppercase;
+    color: #f1e8ff;
+}
+
+#butaoKid {
+    margin-left: 0px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+}
+
+#next2{
+    margin-left: 150px;
+    margin-right: 0px;
+}
+
+/*.lado{
+    
+}*/
+
+button:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+input{
+    width: 400px;
+    height: 80px;
+    font-size: 18px;
+    text-indent: 10px;
+    border-radius: 30px;
+    background: none;
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+
+
+nav ul{
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+
+nav ul li{
+    float: left;
+}
+
+
+nav ul li a:link{
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid #535858;
+}
+
+.teste{
+    width: 20px;
+    height: 20px;
+
+}
+
+.formulario{
+    display: flex;
+}
+
+.formulario label{
+    padding-left: 10px;
+}
+
+input.checkboxQuest{
+    width: 20px;
+    height: 20px;
+}
+
+/*section#termos{}*/
+
+section#termos input{
+    width: 10px;
+    height: 10px;
+    margin: 0px;
+}
+
+section#termos label{
+    float: right;
+}
+
+h4#colorQuest{
+
+    color: #6495ED;
+
+}
+
+h4#colorQuest2{
+
+    color: whitesmoke;
+
+}
+
+h3#colorQuest4{
+    color: rgb(31, 149, 153);
+    text-align: center;
+}
+
+h4#colorQuest5{
+    color: rgb(31, 149, 153);
+    text-align: center;
+}
+
+h3#colorQuest5{
+    color: rgb(31, 149, 153);
+    text-align: center;
+}
+
+h1#colorQuest3{
+    text-align: center;
+    color: rgb(31, 149, 153);
+}
+
+h1#colorQuest6{
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(31, 149, 153);
+}
+
+label#colorpergunta{
+    color: #549c9c;
+}
+
+section#questAdulto #outro{
+    width: 200px;
+    height: 20px;
+    color: #549c9c;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+section#login{
+    width: 400px;
+    background-color: #f1e8ff;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+}
+
+section#login h1{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+section#Conteudo{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(59, 59, 90);
+    width: 1000px;
+    border-radius: 12px;
+}
+
+section#Conteudo h1{
+    padding: 10px;
+    border-bottom: 1px solid #f1e8ff;
+    text-align: center;
+    color: #f1e8ff;
+    text-transform: uppercase;
+}
+
+iframe{
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article#blocos{
+    width: 180px;
+    height: 250px;
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    background: linear-gradient(45deg, #222239, #181829, #343456);
+    text-align: center;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+article#blocos legend{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #f1e8ff;
+}
+
+article#blocos img{
+    border: 1px solid black;
+    width: 180px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+
+section#logo h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ffaa96;
+}
+
+section#logo img{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    clear: both;
+}
+
+button{
+    width: 300px;
+    height: 50px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to right, #00008B, #6A5ACD, #6495ED);
+    text-transform: uppercase;
+    color: #f1e8ff;
+}
+
+button:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+input{
+    width: 400px;
+    height: 80px;
+    font-size: 18px;
+    text-indent: 10px;
+    border-radius: 30px;
+    background: none;
+    margin-bottom: 20px;
+    display: block;
+}
+
+footer{
+    color: #ffaa96;
+    text-align: center;
+    padding-top: 220px;
+
+}
+
+/* MENU SCROLL VERTICAL*/
+div.scrollmenu::-webkit-scrollbar{
+    height: 12px;
+}
+
+div.scrollmenu::-webkit-scrollbar-track{
+    background: #f1e8ff;
+}
+
+div.scrollmenu::-webkit-scrollbar-thumb{
+    background-color: #6a5acd;
+    border-radius: 20px;
+    border: 4px solid #353436;
+}
+
+div.scrollmenu{
+    background-color: #181819;
+    overflow: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    text-align: center;
+}
+
+.container #Titulos h1{
+    
+        text-align: center;
+        color: #f1e8ff;
+        border-bottom: 1px solid #f1e8ff;
+        margin-bottom: 10px;
+}
+
+div.scrollmenu section{
+    background-color: #f1e8ff;
+    display: inline-flex;
+    text-align: center;
+    height: 375px;
+    padding: 25px 5px 0px 5px;
+    border-radius: 3px;
+    transition: transform 0.5s;
+}
+
+
+div.scrollmenu section:hover,
+div.scrollmenu section:focus{
+    transform: scale(105%, 100%);
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+section a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+
+#levaperfil{
+    width: 50px;
+    height: 50px;
+    float: right;
+    border-radius: 60px;
+}
+
+/*DEIXANDO INVISÍVEL*/
+/*div.scrollmenu p{
+      visibility: hidden;
+  }
+  
+  div.scrollmenu p:hover{
+      visibility: visible;
+      color: aqua;
+  }*/
+
+/*PRÓXIMA ATIVIDADE 1*/
+
+#ProxAtv{
+    background-color: #f1e8ff;
+    color: #f1e8ff;
+    padding: 5px;
+    width: 750px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+#horaAtv p{
+    color: #3d3d5f;
+    margin: 0;
+    font-size: 22px;
+    padding: 0px 15px;
+}
+
+#descAtv{
+
+    display: flex;
+}
+
+#descAtv h1{
+    color: #3d3d5f;
+    margin: 0;
+    text-align: center;
+    padding: 5px 50px;
+    font-size: 40px;
+}
+
+#descAtv p{
+    color: #3d3d5f;
+    margin: 0px;
+    font-size: 30px;
+    padding: 10px 15px;
+}
+
+/*ATIVIDADE DEPOIS*/
+#ProxAtv1{
+    background-color: #f1e8ff;
+    color: #f1e8ff;
+    padding: 5px;
+    width: 750px;
+    margin: 10px auto;
+    border-radius: 10px;
+    opacity: 0.5;
+    transform: scale(95%);
+}
+
+/*Acessórios*/
+.clear{
+    clear: both;
+}
+
+hr{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*MenuLateral*/
+#menulateral a{
+    text-decoration: none;
+    color: black;
+}
+
+#menulateral li{
+    width: 110%;
+
+}
+
+#menulateral ul{
+    list-style: none;
+    top: 70px;
+    position: absolute;
+    width: 98.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+/*#menuinterno {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: block;
+    padding: 17px;
+    color: white;
+}*/
+
+#menulateral input[type="checkbox"] {
+    display: none;
+}
+
+#menulateral nav {
+    background-color: #171729d8;
+    width: 300px;
+    height: 105%;
+    left: -300px;
+    position: absolute;
+
+}
+
+#menulateral input[type="checkbox"]:checked~nav {
+    transform: translateX(300px);
+}
+
+#menulateral a {
+    display: block;
+    padding: 20px;
+    color: #f1e8ff;
+}
+
+#menulateral a:hover {
+    background-color: rgb(146, 112, 209);
+    color: black;
+
+}
+
+#menulateral label {
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+#base_perfil {
+    width: 700px;
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #343456;
+
+}
+
+#base_perfil h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: #f1e8ff;
+    border-bottom: 1px solid #3d3d5f;
+
+}
+
+.perfil img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-top: 3px solid #222239;
+    border-left: 3px solid #222239;
+}
+
+.perfil {
+    width: 500px;
+    height: 300px;
+}
+
+.perfil h4 {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    color: #f1e8ff;
+    border-bottom: 1px dotted #f1e8ff;
+
+}
+
+.lateral {
+    width: 200px;
+    height: 200px;
+    float: right;
+    padding-top: 20px;
+}
+
+.lateral button {
+    width: 100px;
+    height: 50px;
+    font-size: 9px;
+}
+
+.conteudo_perfil {
+    width: 650px;
+    height: 300px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.conteudo_perfil button {
+    width: 200px;
+    height: 50px;
+
+}
+
+#recomendar {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #f1e8ff;
+    width: 700px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 50px;
+}
+
+/*RECOMENDAÇÕES*/
+#rec h1 {
+    color: #f1e8ff;
+    text-align: center;
+    margin: 35px auto;
+}
+
+/*base*/
+#cont {
+    display: block;
+    background-color: rgb(59, 59, 90);
+    margin: 50px auto;
+    width: 1000px;
+    border-radius: 12px;
+}
+
+#cont h1 {
+    text-align: center;
+    color: #f1e8ff;
+    padding-top: 10px;
+}
+
+#linkcont {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to top, #f1e8ff, rgb(59, 59, 90));
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#linkcont a {
+    color: #f1e8ff;
+    font-size: 20px;
+}
+
+/*parte de cada*/
+#parte {
+    display: flex;
+    border-bottom: 2px solid #f1e8ff;
+    border-radius: 12px;
+}
+
+#blocoRec {
+    width: 90px;
+    height: 125px;
+    margin: 20px;
+    background: linear-gradient(45deg, #222239, #181829, #343456);
+    text-align: center;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+div#blocoRec img {
+    border: 1px solid black;
+    width: 90px;
+    height: 100px;
+    border-radius: 12px;
+}
+
+#texto fieldset legend {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #f1e8ff;
+    padding: 15px 15px 0px 15px;
+}
+
+#texto {
+    width: 750px;
+}
+
+#texto p {
+    color: #f1e8ff;
+    text-indent: 30px;
+    font-size: large;
+    padding: 20px;
+}
+
+/*botão*/
+#olhar {
+    margin: 60px auto 30px auto;
+    padding: 0px 10px;
+}
+
+#olharBotao {
+    margin-left: 0px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to right, #00008B, #6A5ACD, #6495ED);
+    text-transform: uppercase;
+    color: white;
+    width: 125px;
+}
+
+/*Pseudo POP UP*/
+
+div#blocoPopUp {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(59, 59, 90);
+    width: 700px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 10px;
+}
+
+#blocoPopUp h2 {
+    color: white;
+}
+
+#blocoDoisUp {
+    color: white;
+    text-align: left;
+    font-size: 17px;
+}
+
+#blocoDoisUp input {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    text-indent: 10px;
+    border-radius: 30px;
+    background: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+
+}
+
+#blocoTresUp input {
+    color: white;
+    width: 20%;
+    height: 30px;
+    font-size: 18px;
+    text-indent: 10px;
+    border-radius: 30px;
+    background: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+
+div#blocoTresUp {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(59, 59, 90);
+    width: 700px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+.ladinho{
+    margin-left: 160px;
+    margin-top: -73px;
+    background-color: #e6e4e4;
+}
+
+#blocoTresUp input[type="checkbox"] {
+    display: none;
+}
+
+#blocoTresUp img {
+    width: 7%;
+    padding: 10px;
+}
+
+#botaoPrioridade {
+    margin-left: 145px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(to right, #00008B, #6A5ACD, #6495ED);
+    text-transform: uppercase;
+    color: white;
+    font-size: 17px;
+    width: 60%;
+}
+@media (max-width: 306px) {
+
+
+
+}
+/*DIONATAN*/
+/*Extra Small Devices*/
+
+@media (max-width: 575.98px) {
+
+    /*Registro*/
+    section#cadastro {
+        width: 70%;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        padding: 20px 30px;
+    }
+
+    /*Fim Registro*/
+
+    button {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+       
+        
+    }
+
+
+    section#logo {
+        padding-left: 0px;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section#login {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    input {
+        width: 100%;
+        height: 70px;
+        font-size: 18px;
+        text-indent: 10px;
+        border-radius: 30px;
+    }
+
+    footer {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    button#Escolha1 {
+        height: 150px;
+        width: 150px;
+        margin-left: 5px;
+
+    }
+
+    button#Escolha2 {
+        height: 150px;
+        width: 150px;
+        margin-left: 75px;
+    }
+
+    section#questAdulto {
+        width: 70%;
+        background-color: #f1e8ff;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        padding: 20px 30px;
+
+    }
+
+    /*Perfil*/
+    #base_perfil {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #343456;
+
+    }
+
+    #base_perfil h1 {
+        text-align: center;
+        padding-top: 20px;
+        color: #f1e8ff;
+        border-bottom: 1px solid #3d3d5f;
+
+    }
+
+    .lateral {
+        width: 50%;
+        height: 50%;
+        float: right;
+        padding-top: 20px;
+    }
+
+    .lateral button {
+        width: 70px;
+        height: 30px;
+        font-size: 9px;
+    }
+
+    .perfil img {
+        width: 50%;
+        height: 50%;
+        float: left;
+        border-radius: 12px;
+        margin-left: 20px;
+        margin-top: 20px;
+        border-top: 3px solid #222239;
+        border-left: 3px solid #222239;
+    }
+
+    .perfil {
+        width: 200px;
+        height: 200px;
+    }
+    #levaperfil {
+        width: 50px;
+        height: 50px;
+        float: right;
+        border-radius: 60px;
+    }
+
+    .perfil h4 {
+        margin-top: 20px;
+        margin-left: 20px;
+        display: inline-block;
+        color: #f1e8ff;
+        border-bottom: 1px dotted #f1e8ff;
+
+    }
+
+    .conteudo_perfil {
+        width: 50%;
+        height: 300px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .conteudo_perfil button {
+        width: 80%;
+        height: 15%;
+        margin-bottom: 10px;
+
+    }
+.registro{
+    margin-top: 10000x;
+}
+
+    /*Fim Perfil*/
+
+    /*Criado para diminuir a quantidade de códigos em questionario - Quiança*/
+    /*Esses 3 estão localizados em registroEscolhas.HTMl*/
+    .externoBlocoQuest h1 {
+        margin-top: 100px;
+        text-align: center;
+        color: #f1e8ff;
+        text-transform: uppercase;
+
+    }
+
+    #apresenta {
+        margin-top: 100px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+    #escolha{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*#escolha button {
+        
+    }*/
+
+    section#cadastro {
+        width: 80%;
+
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 30px;
+    }
+
+    /*CriançaQuest.html*/
+    section#questCrianca {
+        width: 70%;
+        height: 500px;
+        background-color: rgb(192, 236, 229);
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        padding: 20px 30px;
+        color: white;
+        text-align: center;
+
+    }
+
+    #BotoesQuest {
+        margin-right: auto;
+        margin-left: auto;
+        display: inline-block;
+
+    }
+
+    #BotoesQuest button {
+        width: 100px;
+        display: inline-block;
+
+    }
+
+    .AreaBotao {
+        margin-top: 10px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #butaoKid button {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+    /*Fim Quest*/
+
+    /*Recomendações*/
+    #cont {
+        display: block;
+        background-color: rgb(59, 59, 90);
+        margin: 50px auto;
+        width: 90%;
+        border-radius: 12px;
+    }
+
+    #cont h1 {
+        text-align: center;
+        color: #f1e8ff;
+        padding-top: 10px;
+    }
+
+    #linkcont {
+        text-align: center;
+        padding: 10px;
+        background: linear-gradient(to top, #f1e8ff, rgb(59, 59, 90));
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+    #linkcont a {
+        color: #f1e8ff;
+        font-size: 20px;
+    }
+
+    #parte {
+        display: inline;
+        border-bottom: 2px solid #f1e8ff;
+        padding-bottom: 20px;
+        border-radius: 12px;
+        border-bottom: 5px solid white;
+    }
+
+    #blocoRec {
+        width: 90%;
+        height: 100px;
+        margin: 20px auto 0px auto;
+        background: linear-gradient(45deg, #222239, #181829, #343456);
+        text-align: center;
+        border-radius: 12px;
+        padding: 5px;
+    }
+
+    div#blocoRec img {
+        width: 90px;
+        height: 100px;
+    }
+
+    #texto {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #olhar {
+        margin: auto;
+        margin-bottom: 25px;
+        border-bottom: 2px solid white;
+        border-radius: 12px;
+    }
+
+    #olharBotao {
+        margin-top: 10px;
+        margin-left: 25%;
+        margin-right: 25%;
+        height: 50px;
+        width: 50%;
+    }
+
+    /*Fim Recomendações*/
+
+    /*Inicio PopUp*/
+
+    div#blocoPopUp {
+        width: 90%;
+        padding: 10px;
+    }
+
+    div#blocoTresUp {
+        width: 90%;
+    }
+
+    div#blocoTresUp input {
+        width: 125px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+    }
+
+    div#blocoTresUp img {
+        width: 32px;
+        height: 32px;
+    }
+
+    #botaoPrioridade {
+        margin-left: 25%;
+        margin-left: 25%;
+        font-size: 17px;
+        width: 50%;
+    }
+
+    /*Pagina Principal*/
+    .container #Titulos {
+        
+        font-size: 18px;
+        text-align: center;
+        color: #f1e8ff;
+        border-bottom: 1px solid #f1e8ff;
+        margin-bottom: 10px;
+        
+       
+    }
+
+    #horaAtv p {
+        color: #3d3d5f;
+        margin: 0;
+        font-size: 14px;
+        padding: 0px 15px;
+    }
+
+    #descAtv {
+
+        display: flex;
+    }
+
+    #descAtv h1 {
+        color: #3d3d5f;
+        margin: 0;
+        text-align: center;
+        padding: 5px 50px;
+        font-size: 40px;
+    }
+
+    #descAtv p {
+        color: #3d3d5f;
+        margin: 0px;
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+
+    #recomendar {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: #f1e8ff;
+        width: 300px;
+        height: 50px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        border-radius: 50px;
+    }
+
+    h1{
+        font-size: 18px;
+    }
+
+    #ProxAtv {
+        background-color: #f1e8ff;
+        color: #f1e8ff;
+        padding: 5px;
+        width: 300px;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+
+    #ProxAtv1 {
+        background-color: #f1e8ff;
+        color: #f1e8ff;
+        padding: 5px;
+        width: 300px;
+        margin: 10px auto;
+        border-radius: 10px;
+        opacity: 0.5;
+        transform: scale(95%);
+    }
+
+    hr {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    section#Conteudo h1 {
+        padding: 10px;
+        border-bottom: 1px solid #f1e8ff;
+        text-align: center;
+        color: #f1e8ff;
+        text-transform: uppercase;
+
+    }
+
+    iframe {
+        border-radius: 10px;
+        margin-left: 15%;
+        width: 200px;
+        height: 200px;
+    }
+
+    section#Conteudo {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(59, 59, 90);
+        width: 300px;
+        border-radius: 12px;
+
+
+    }
+
+    /*Fim Pagina Inicial*/
+}
+
+/*ROBERTO*/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+
+
+    /*Login*/
+    section#login {
+        width: 400px;
+        background-color: white;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 30px;
+    }
+
+    section#login button {
+        margin-left: 50px;
+        margin-bottom: 10px;
+
+    }
+
+    section#login h1 {
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 30px;
+
+    }
+
+    section#logo {
+        padding-left: 0px;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #logo img {
+        margin-top: 10px;
+        width: 150px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*Fim Login*/
+    /*Perfil*/
+    #base_perfil {
+        width: 578px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #343456;
+
+    }
+
+    #base_perfil h1 {
+        text-align: center;
+        padding-top: 20px;
+        color: #f1e8ff;
+        border-bottom: 1px solid #3d3d5f;
+
+    }
+
+    .lateral {
+        width: 200px;
+        height: 200px;
+        float: right;
+        padding-top: 20px;
+    }
+
+    .lateral button {
+        width: 100px;
+        height: 50px;
+        font-size: 9px;
+    }
+
+    .perfil img {
+        width: 200px;
+        height: 200px;
+        float: left;
+        border-radius: 12px;
+        margin-left: 20px;
+        margin-top: 20px;
+        border-top: 3px solid #222239;
+        border-left: 3px solid #222239;
+    }
+
+    .perfil {
+        width: 300px;
+        height: 300px;
+    }
+
+    .perfil h4 {
+        margin-top: 20px;
+        margin-left: 20px;
+        display: inline-block;
+        color: #f1e8ff;
+        border-bottom: 1px dotted #f1e8ff;
+
+    }
+
+    .conteudo_perfil {
+        width: 500px;
+        height: 300px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .conteudo_perfil button {
+        width: 200px;
+        height: 50px;
+        margin-bottom: 10px;
+
+    }
+
+    /*Fim Perfil*/
+
+    /*Criado para diminuir a quantidade de códigos em questionario - Quiança*/
+    /*Esses 3 estão localizados em registroEscolhas.HTMl*/
+    .externoBlocoQuest h1 {
+        margin-top: 100px;
+        text-align: center;
+        color: #f1e8ff;
+        text-transform: uppercase;
+
+    }
+
+    #apresenta {
+        margin-top: 100px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+    .registro{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*#escolha{
+    
+    }*/
+
+    #escolha button {
+        height: 150px;
+        width: 150px;
+        margin-left: 40%;
+        color: white;
+    }
+
+
+    section#cadastro {
+        width: 400px;
+
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 30px;
+    }
+
+    /*CriançaQuest.html*/
+    section#questCrianca {
+        width: 500px;
+        height: 500px;
+        background-color: rgb(192, 236, 229);
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        padding: 20px 30px;
+        color: white;
+        text-align: center;
+
+    }
+
+    #BotoesQuest {
+        margin-right: auto;
+        margin-left: auto;
+        display: inline-block;
+
+    }
+
+    #BotoesQuest button {
+        width: 100px;
+        display: inline-block;
+
+    }
+
+    .AreaBotao {
+        margin-top: 30px;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #butaoKid button {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    /*Fim Quest*/
+
+    /*PseudoPopup*/
+    div#blocoPopUp {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(59, 59, 90);
+        width: 500px;
+        border-radius: 12px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #blocoPopUp h2 {
+        color: white;
+    }
+
+    #blocoDoisUp {
+        color: white;
+        text-align: left;
+        font-size: 17px;
+    }
+
+    #blocoDoisUp input {
+        color: rgb(255, 255, 255);
+        width: 100%;
+        height: 30px;
+        font-size: 18px;
+        text-indent: 10px;
+        border-radius: 30px;
+        background: none;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        display: inline-block;
+
+    }
+
+    #blocoTresUp input {
+        color: white;
+        width: 25%;
+        height: 30px;
+        font-size: 18px;
+        text-indent: 10px;
+        border-radius: 30px;
+        background: none;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-right: 30px;
+        display: inline-block;
+    }
+
+    div#blocoTresUp {
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(59, 59, 90);
+        width: 500px;
+        border-radius: 12px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    #blocoTresUp input[type="checkbox"] {
+        display: none;
+    }
+
+    #blocoTresUp img {
+        width: 7%;
+        padding: 10px;
+    }
+
+    #botaoPrioridade {
+        border-radius: 20px;
+        border: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 17px;
+        margin-left: 100px;
+    }
+
+    /*Pagina Principal*/
+
+    #recomendar {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: #f1e8ff;
+        width: 500px;
+        height: 50px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        border-radius: 50px;
+    }
+
+    #ProxAtv {
+        background-color: #f1e8ff;
+        color: #f1e8ff;
+        padding: 5px;
+        width: 500px;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+
+    #ProxAtv1 {
+        background-color: #f1e8ff;
+        color: #f1e8ff;
+        padding: 5px;
+        width: 500px;
+        margin: 10px auto;
+        border-radius: 10px;
+        opacity: 0.5;
+        transform: scale(95%);
+    }
+
+    hr {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    section#Conteudo h1 {
+        padding: 10px;
+        border-bottom: 1px solid #f1e8ff;
+        text-align: center;
+        color: #f1e8ff;
+        text-transform: uppercase;
+
+    }
+
+    iframe {
+        border-radius: 10px;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 300px;
+        height: 300px;
+    }
+
+    section#Conteudo {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(59, 59, 90);
+        width: 500px;
+        border-radius: 12px;
+
+
+    }
+
+    /*Fim Pagina Inicial*/
+    /*Recomendações*/
+    #cont {
+        display: block;
+        background-color: rgb(59, 59, 90);
+        margin: 50px auto;
+        width: 550px;
+        border-radius: 12px;
+    }
+
+    #cont h1 {
+        text-align: center;
+        color: #f1e8ff;
+        padding-top: 10px;
+    }
+
+    #linkcont {
+        text-align: center;
+        padding: 10px;
+        background: linear-gradient(to top, #f1e8ff, rgb(59, 59, 90));
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+    #linkcont a {
+        color: #f1e8ff;
+        font-size: 20px;
+    }
+
+    #parte {
+        display: flex;
+        border-bottom: 2px solid #f1e8ff;
+        padding-bottom: 20px;
+        border-radius: 12px;
+    }
+
+    #blocoRec {
+        width: 90px;
+        height: 125px;
+        margin: 20px;
+        background: linear-gradient(45deg, #222239, #181829, #343456);
+        text-align: center;
+        border-radius: 12px;
+        padding: 5px;
+    }
+
+    div#blocoRec img {
+        border: 1px solid black;
+        width: 90px;
+        height: 100px;
+        border-radius: 12px;
+    }
+
+    #texto fieldset legend {
+        text-align: center;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #f1e8ff;
+        padding: 15px 15px 0px 15px;
+    }
+
+    #texto {
+        width: 750px;
+    }
+
+    #texto p {
+        color: #f1e8ff;
+        text-indent: 30px;
+        font-size: large;
+        padding: 20px;
+    }
+
+    #olhar {
+        margin: 60px auto 30px auto;
+        padding: 0px 10px;
+    }
+
+    #olharBotao {
+        margin-left: 0px;
+        height: 50px;
+        border-radius: 20px;
+        border: none;
+        background: linear-gradient(to right, #00008B, #6A5ACD, #6495ED);
+        text-transform: uppercase;
+        color: white;
+        width: 100px;
+    }
+
+    /*Fim Recomendações*/
+}
+
+
+/*Fim Pagina Inicial*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    section#Conteudo {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(59, 59, 90);
+        width: 900px;
+        border-radius: 12px;
+        align-self: center;
+    }
+
+    section#login button {
+        margin-left: 50px;
+        margin-bottom: 10px;
+
+    }
+
+    .BlocoQuest3 {
+        top: 70%;
+        left: 35%;
+        height: 10px;
+        width: 200px;
+        border-radius: 20px;
+        display: flex;
+
+        position: absolute;
+        margin-top: 70px;
+        margin-left: -100px;
+    }
+
+    .BlocoQuest4 {
+        top: 70%;
+        left: 57%;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        display: flex;
+
+        position: absolute;
+        margin-top: 70px;
+        margin-left: -100px;
+        color: antiquewhite;
+
+    }
+
+    #butaoKid {
+        left: 49;
+        margin-left: 80px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+
+    }
+
+    /*Recomendações*/
+    #cont {
+        display: block;
+        background-color: rgb(59, 59, 90);
+        margin: 50px auto;
+        width: 550px;
+        border-radius: 12px;
+    }
+
+    #cont h1 {
+        text-align: center;
+        color: #f1e8ff;
+        padding-top: 10px;
+    }
+
+    #linkcont {
+        text-align: center;
+        padding: 10px;
+        background: linear-gradient(to top, #f1e8ff, rgb(59, 59, 90));
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+
+    #linkcont a {
+        color: #f1e8ff;
+        font-size: 20px;
+    }
+    .registro{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #parte {
+        display: flex;
+        border-bottom: 2px solid #f1e8ff;
+        padding-bottom: 20px;
+        border-radius: 12px;
+    }
+
+    #blocoRec {
+        width: 90px;
+        height: 125px;
+        margin: 20px;
+        background: linear-gradient(45deg, #222239, #181829, #343456);
+        text-align: center;
+        border-radius: 12px;
+        padding: 5px;
+    }
+
+    div#blocoRec img {
+        border: 1px solid black;
+        width: 90px;
+        height: 100px;
+        border-radius: 12px;
+    }
+
+    #texto fieldset legend {
+        text-align: center;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #f1e8ff;
+        padding: 15px 15px 0px 15px;
+    }
+
+    #texto {
+        width: 750px;
+    }
+
+    #texto p {
+        color: #f1e8ff;
+        text-indent: 30px;
+        font-size: large;
+        padding: 20px;
+    }
+
+    #olhar {
+        margin: 60px auto 30px auto;
+        padding: 0px 10px;
+    }
+
+    #olharBotao {
+        margin-left: 0px;
+        height: 50px;
+        border-radius: 20px;
+        border: none;
+        background: linear-gradient(to right, #00008B, #6A5ACD, #6495ED);
+        text-transform: uppercase;
+        color: white;
+        width: 100px;
+    }
+
+    /*Fim Recomendações*/
+    /*Pagina Principal*/
+
+    #recomendar {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: #f1e8ff;
+        width: 500px;
+        height: 50px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        border-radius: 50px;
+    }
+
+    #ProxAtv {
+        background-color: #f1e8ff;
+        color: #f1e8ff;
+        padding: 5px;
+        width: 500px;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+
+    #ProxAtv1 {
+        background-color: #f1e8ff;
+        color: #f1e8ff;
+        padding: 5px;
+        width: 500px;
+        margin: 10px auto;
+        border-radius: 10px;
+        opacity: 0.5;
+        transform: scale(95%);
+    }
+
+    hr {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    section#Conteudo h1 {
+        padding: 10px;
+        border-bottom: 1px solid #f1e8ff;
+        text-align: center;
+        color: #f1e8ff;
+        text-transform: uppercase;
+
+    }
+
+    iframe {
+        border-radius: 10px;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 300px;
+        height: 300px;
+    }
+
+    section#Conteudo {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(59, 59, 90);
+        width: 500px;
+        border-radius: 12px;
+
+
+    }
+
+    /*Fim Pagina Inicial*/
+    section#logo {
+        padding-left: 0px;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*Criado para diminuir a quantidade de códigos em questionario - Quiança*/
+    /*Esses 3 estão localizados em registroEscolhas.HTMl*/
+    .externoBlocoQuest h1 {
+        margin-top: 100px;
+        text-align: center;
+        color: #f1e8ff;
+        text-transform: uppercase;
+
+    }
+
+    #apresenta {
+        margin-top: 100px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-block;
+
+
+    }
+
+    /*#escolha{  
+        
+    }*/
+
+    #escolha button {
+        height: 150px;
+        width: 150px;
+        margin-top: 20%;
+        margin-left: 50%;
+        color: white;
+    }
+
+
+    section#cadastro {
+        width: 400px;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 30px;
+    }
+
+    /*CriançaQuest.html*/
+    section#questCrianca {
+        width: 70%;
+        height: 500px;
+        background-color: rgb(192, 236, 229);
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        padding: 20px 30px;
+        color: white;
+        text-align: center;
+
+    }
+
+
+    #BotoesQuest {
+        margin-right: auto;
+        margin-left: auto;
+        display: inline-block;
+
+    }
+
+    #BotoesQuest button {
+        width: 100px;
+        display: inline-block;
+
+    }
+
+    .AreaBotao {
+        margin-top: 30px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #butaoKid button {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    /*Fim Quest*/
+
+    .conteudo_perfil {
+        width: 50%;
+        height: 300px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+}
+
+
+/*KARINA*/
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+
+    section#logo {
+        padding-left: 0px;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    section#login button {
+        margin-left: 50px;
+        margin-bottom: 10px;
+
+    }
+    .registro{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section#Conteudo {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(59, 59, 90);
+        width: 900px;
+        border-radius: 12px;
+        align-self: center;
+    }
+
+    .BlocoQuest#bloco3 {
+        top: 70%;
+        left: 35%;
+        height: 10px;
+        width: 200px;
+        border-radius: 20px;
+        display: flex;
+
+        position: absolute;
+        margin-top: 70px;
+        margin-left: -100px;
+    }
+
+    .BlocoQuest#bloco4 {
+        top: 70%;
+        left: 57%;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        display: flex;
+
+        position: absolute;
+        margin-top: 70px;
+        margin-left: -100px;
+        color: antiquewhite;
+
+    }
+
+    #butaoKid {
+        left: 49;
+        margin-left: 80px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    /*pagina Inicial*/
+    section#Conteudo {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(59, 59, 90);
+        width: 800px;
+        border-radius: 12px;
+
+
+    }
+
+    iframe {
+        margin-left: 6%;
+
+        width: 700px;
+        height: 600px;
+    }
+
+    /*Criado para diminuir a quantidade de códigos em questionario - Quiança*/
+    /*Esses 3 estão localizados em registroEscolhas.HTMl*/
+    .externoBlocoQuest h1 {
+
+        text-align: center;
+        color: #f1e8ff;
+        text-transform: uppercase;
+
+    }
+
+    #apresenta {
+        margin-top: 100px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+    /*#escolha{
+        
+    }*/
+
+    #escolha button {
+        height: 150px;
+        width: 150px;
+        margin-top: 20%;
+        margin-left: 50%;
+        color: white;
+    }
+
+    section#cadastro {
+        width: 400px;
+
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 30px;
+    }
+
+
+    /*CriançaQuest.html*/
+    section#questCrianca {
+        width: 70%;
+        height: 500px;
+        background-color: rgb(192, 236, 229);
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        padding: 20px 30px;
+        color: white;
+        text-align: center;
+
+    }
+
+    #BotoesQuest {
+        margin-right: auto;
+        margin-left: auto;
+        display: inline-block;
+
+    }
+
+    #BotoesQuest button {
+        width: 100px;
+        display: inline-block;
+
+    }
+
+    .AreaBotao {
+        margin-top: 30px;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #butaoKid button {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    /*Fim Quest*/
+
+    .conteudo_perfil {
+        width: 50%;
+        height: 300px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+/*VITÓRIA*/
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+
+
+    section#logo {
+        padding-left: 0px;
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section#login button {
+        margin-left: 50px;
+        margin-bottom: 10px;
+
+    }
+
+    h1#colorQuest3 {
+        text-align: center;
+
+        color: rgb(31, 149, 153);
+        font-size: 2.5em;
+    }
+    .registro{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    .BlocoQuest#bloco3 {
+        top: 55%;
+        left: 35%;
+        height: 10px;
+        width: 200px;
+        border-radius: 20px;
+        display: flex;
+
+        position: absolute;
+        margin-top: 70px;
+        margin-left: -100px;
+    }
+
+    .BlocoQuest#bloco4 {
+        top: 55%;
+        left: 57%;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        display: flex;
+
+        position: absolute;
+        margin-top: 70px;
+        margin-left: -100px;
+        color: antiquewhite;
+
+    }
+
+    #butaoKid {
+        left: 49;
+        margin-left: 80px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+
+    }
+
+    /*Criado para diminuir a quantidade de códigos em questionario - Quiança*/
+    /*Esses 3 estão localizados em registroEscolhas.HTMl*/
+    .externoBlocoQuest h1 {
+        margin-top: 100px;
+        text-align: center;
+        color: #f1e8ff;
+        text-transform: uppercase;
+
+    }
+
+    #apresenta {
+        margin-top: 100px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+    #escolha button {
+        height: 150px;
+        width: 150px;
+        margin-left: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+    }
+
+    section#cadastro {
+        width: 400px;
+
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 30px;
+    }
+
+
+    /*CriançaQuest.html*/
+    section#questCrianca {
+        width: 70%;
+        height: 500px;
+        background-color: rgb(192, 236, 229);
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        color: white;
+        text-align: center;
+
+    }
+
+    #BotoesQuest {
+
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #BotoesQuest button {
+        margin-left: 0%;
+
+    }
+
+    .AreaBotao {
+        margin-top: 30px;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /*Fim Quest*/
+
+    .conteudo_perfil {
+        width: 50%;
+        height: 300px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
